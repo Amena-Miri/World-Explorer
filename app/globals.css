@@ -741,7 +741,7 @@ body {
   font-weight: bold;
 }
 
-/* Loading & Error */
+/* Loading & Not-Found */
 .loading-container {
   display: flex;
   justify-content: center;
@@ -757,7 +757,7 @@ body {
   border-radius: 50%;
   animation: spin 0.8s linear infinite;
 }
-.error-container, .not-found { text-align: center; padding: 4rem; }
+.not-found { text-align: center; padding: 4rem; }
 .not-found-title { font-size: 6rem; color: var(--accent); }
 
 /* Animations */
