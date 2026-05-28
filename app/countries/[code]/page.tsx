@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { FaArrowLeft, FaLocationDot } from "react-icons/fa6";
 
-// DYNAMIC RENDERING with no-store
+// This page fetches fresh data every time.
 export default async function CountryDetailsPage({
   params,
 }: {
